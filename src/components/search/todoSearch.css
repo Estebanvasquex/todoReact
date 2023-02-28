@@ -1,0 +1,16 @@
+.todoSearch__input {
+  text-align: center;
+  margin: 10px;
+  width: 60%;
+  height: 60px;
+  border-radius: 10px;
+  border: 0;
+
+  box-shadow: -3px 2px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 2px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.todoSearch__input:focus {
+  outline-color: #61dafa;
+}

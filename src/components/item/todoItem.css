@@ -1,0 +1,35 @@
+li {
+  list-style: none;
+  background-color: white;
+  margin: 20px;
+  width: 300px;
+  position: relative;
+
+  box-shadow: -3px 2px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 2px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 2px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.icon-delete {
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+
+.icon-check {
+}
+
+.icon {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.icon-check--active {
+  color: green;
+  font-weight: 900;
+}
+
+.icon-delete--complete {
+  color: brown;
+  font-weight: 900;
+}
