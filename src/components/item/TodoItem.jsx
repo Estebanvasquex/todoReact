@@ -1,6 +1,6 @@
 import React from "react";
 import "./todoItem.css";
-import logo from '../../img/x-circle.svg'
+import logo from "../../img/x-circle.svg";
 
 export function TodoItem(props) {
   const onComplete = () => {
@@ -9,7 +9,6 @@ export function TodoItem(props) {
 
   //Todo individual
   const onDelete = () => {
-    alert("Borraste el todo" + props.text);
   };
 
   return (
@@ -23,17 +22,16 @@ export function TodoItem(props) {
         >
           ✓
         </span>
-        <p className={`${
-            props.completed && "textTachado"
-          }`}
-        >{props.text}</p>
+        <p className={`${props.completed && "textTachado"}`}>{props.text}</p>
 
-      
-          <img   className={`icon icon-delete ${
+        <img
+          className={`icon icon-delete ${
             props.completed && "icon-delete--complete"
-          }`} onClick={props.onDelete} src={logo} alt="" />
-        
-        
+          }`}
+          onClick={props.onDelete}
+          src={logo}
+          alt=""
+        />
       </li>
     </>
   );
