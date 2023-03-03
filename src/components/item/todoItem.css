@@ -1,9 +1,21 @@
 li {
+  color: rgb(201, 120, 27);
   list-style: none;
-  background-color: white;
-  margin: 20px;
+  background-color: #272b40;
+  margin: 5px;
   width: 300px;
   position: relative;
+  border-radius: 2px;
+
+  height: 60px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+
+  font-weight: 700;
+
+
 
   box-shadow: -3px 2px 20px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -3px 2px 20px 0px rgba(0, 0, 0, 0.75);
@@ -11,25 +23,37 @@ li {
 }
 
 .icon-delete {
+
+ 
   position: absolute;
   right: 0;
-  top: -10px;
+  
 }
 
 .icon-check {
 }
 
 .icon {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 600;
+  
 }
 
 .icon-check--active {
+
+ 
   color: green;
   font-weight: 900;
 }
 
 .icon-delete--complete {
-  color: brown;
+  
   font-weight: 900;
 }
+
+
+
+.textTachado{
+   text-decoration:line-through;
+}
+
